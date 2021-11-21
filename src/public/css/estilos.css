@@ -9,12 +9,12 @@ body {
 }
 
 a {
-  color: #3d0c60;
+  color: #e950f1;
   text-decoration: none;
 }
 a:hover {
   transition: all 0.4s;
-  color: #954f99;
+  color: #f7add2;
 }
 
 h1 {
@@ -98,7 +98,7 @@ p {
   width: 50%;
   position: absolute;
   z-index: 11;
-  top: 420px;
+  top: 380px;
   left: 390px;
 }
 .carrusel .carrusel__wmsg .wmsg__border {
@@ -106,7 +106,7 @@ p {
   justify-content: center;
 }
 .carrusel .carrusel__wmsg .wmsg__border .wmsg__content {
-  border: 10px solid #3d0c60;
+  border: 10px solid #f7add2;
   width: 100%;
   height: 140px;
   padding: 10px;
@@ -149,7 +149,7 @@ p {
 }
 .carrusel .carrusel__wmsg .wmsg__border .wmsg__content:hover .wmsg__b--txt {
   transition: all 0.6s;
-  color: #954f99;
+  color: #f7add2;
 }
 .carrusel .carrusel__wmsg .wmsg__border .wmsg__content:hover .wmsg__foot {
   transition: all 0.6s;
@@ -653,11 +653,11 @@ p {
   align-items: center;
   border-radius: 4px;
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #954f99, #3d0c60);
+  background: linear-gradient(to bottom right, #f7add2, #e950f1);
 }
 .high .container .high__footer .high__footer--link:hover {
   transition: all 0.4s;
-  background: linear-gradient(to bottom right, #3d0c60, #954f99);
+  background: linear-gradient(to bottom right, #e950f1, #f7add2);
 }
 
 .blog {
@@ -710,11 +710,11 @@ p {
   align-items: center;
   border-radius: 4px;
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #954f99, #3d0c60);
+  background: linear-gradient(to bottom right, #f7add2, #e950f1);
 }
 .blog .blog__body .carousel__button .carousel__button--text:hover {
   transition: all 0.4s;
-  background: linear-gradient(to bottom right, #3d0c60, #954f99);
+  background: linear-gradient(to bottom right, #e950f1, #f7add2);
 }
 @media (min-width: 320px) and (max-width: 1280px) {
   .blog .blog__body .carousel-inner {
@@ -827,14 +827,14 @@ p {
   margin-top: 20px;
 }
 .mapa .mapa__body .mb__content .cont__body .cont__body--reg .reg__button {
-  background: linear-gradient(to bottom right, #954f99, #3d0c60);
+  background: linear-gradient(to bottom right, #f7add2, #e950f1);
   padding: 8px 8px;
   border-radius: 6px;
   color: #FFFFFF;
 }
 .mapa .mapa__body .mb__content .cont__body .cont__body--reg .reg__button:hover {
   transition: all 0.6s;
-  background: linear-gradient(to bottom right, #3d0c60, #954f99);
+  background: linear-gradient(to bottom right, #e950f1, #f7add2);
 }
 .mapa .mapa__body .mb__content .cont__body .cont__body--social .mp__ws {
   font-size: 22px;
@@ -908,11 +908,11 @@ p {
   align-items: center;
   border-radius: 4px;
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #954f99, #3d0c60);
+  background: linear-gradient(to bottom right, #f7add2, #e950f1);
 }
 .ali .container .ali__footer .ali__footer--inv:hover {
   transition: all 0.4s;
-  background: linear-gradient(to bottom right, #3d0c60, #954f99);
+  background: linear-gradient(to bottom right, #e950f1, #f7add2);
 }
 @media (min-width: 320px) and (max-width: 410px) {
   .ali {
@@ -1202,11 +1202,11 @@ p {
   align-items: center;
   border-radius: 4px;
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #954f99, #3d0c60);
+  background: linear-gradient(to bottom right, #f7add2, #e950f1);
 }
 .ser .ser__body .ser__section .ser__item .ser__item--square .ser__item--body .ser__item--link:hover {
   transition: all 0.4s;
-  background: linear-gradient(to bottom right, #3d0c60, #954f99);
+  background: linear-gradient(to bottom right, #e950f1, #f7add2);
 }
 .ser .ser__body .ser__section .ser__item .ser__item--info {
   display: none;
