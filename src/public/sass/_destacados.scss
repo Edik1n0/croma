@@ -33,6 +33,48 @@
                     .hi__body--txt {
                         margin-top: 20px;
                     }
+
+                    .body__txt--stars {
+                        justify-content: center;
+                        color: $Dor;
+                        list-style: none;
+                        padding: 0px;
+                        height: 30px;
+
+                        .stars__item {
+                            .icon-star {
+                                color: $Dor;
+                            }
+                        }
+                    }
+
+                    .hi__body--price {
+                        .body__price--after {
+                            color: grey;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+
+                .high__item--footer {
+                    justify-content: center;
+                    .icon-cart-plus {
+                        font-size: 24px;
+                    }
+
+                    .buy__button {
+                        margin: 4px;
+                        border-radius: 8px;
+                        padding: 8px;
+                        background: $Color;
+                        color: $MorO;
+
+                        &:hover {
+                            transition: all .4s;
+                            background: $ColorDos;
+                            color: $Bl;
+                        }
+                    }
                 }
             }
 

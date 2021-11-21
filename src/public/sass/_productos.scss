@@ -1,0 +1,14 @@
+.prod {
+    margin-top: 80px;
+    margin-bottom: 120px;
+
+    .prod__search {
+        margin-top: 60px;
+        .buscador {
+            justify-content: center;
+            .form-control {
+                width: 40%;
+            }
+        }
+    }
+}

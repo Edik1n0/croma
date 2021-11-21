@@ -14,7 +14,7 @@ const app = express();
 require('./lib/passport');
 
 //Settings
-app.set('port', process.env.PORT || 12000); // Puerto
+app.set('port', process.env.PORT || 8000); // Puerto
 app.set('views', path.join(__dirname, 'views')); // HBS
 app.engine('.hbs', exphbs({
     defaultLayout: 'main',

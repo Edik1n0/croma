@@ -1,10 +1,10 @@
 @font-face {
     font-family: "fontello";
-    src: url("../font/fontello.eot?52594571");
-    src: url("../font/fontello.eot?52594571#iefix") format("embedded-opentype"),
-        url("../font/fontello.woff2?52594571") format("woff2"), url("../font/fontello.woff?52594571") format("woff"),
-        url("../font/fontello.ttf?52594571") format("truetype"),
-        url("../font/fontello.svg?52594571#fontello") format("svg");
+    src: url("../font/fontello.eot?60117036");
+    src: url("../font/fontello.eot?60117036#iefix") format("embedded-opentype"),
+        url("../font/fontello.woff2?60117036") format("woff2"), url("../font/fontello.woff?60117036") format("woff"),
+        url("../font/fontello.ttf?60117036") format("truetype"),
+        url("../font/fontello.svg?60117036#fontello") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -14,7 +14,7 @@
   @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
       font-family: 'fontello';
-      src: url('../font/fontello.svg?52594571#fontello') format('svg');
+      src: url('../font/fontello.svg?60117036#fontello') format('svg');
     }
   }
   */
@@ -165,6 +165,36 @@
 .icon-comment:before {
     content: "\e824";
 } /* '' */
+.icon-basket:before {
+    content: "\e825";
+} /* '' */
+.icon-basket-1:before {
+    content: "\e826";
+} /* '' */
+.icon-basket-2:before {
+    content: "\e827";
+} /* '' */
+.icon-basket-alt:before {
+    content: "\e828";
+} /* '' */
+.icon-search:before {
+    content: "\e829";
+} /* '' */
+.icon-search-1:before {
+    content: "\e82a";
+} /* '' */
+.icon-search-outline:before {
+    content: "\e82b";
+} /* '' */
+.icon-search-2:before {
+    content: "\e82c";
+} /* '' */
+.icon-search-3:before {
+    content: "\e82d";
+} /* '' */
+.icon-search-4:before {
+    content: "\e82e";
+} /* '' */
 .icon-twitter:before {
     content: "\f099";
 } /* '' */
@@ -213,6 +243,9 @@
 .icon-trash:before {
     content: "\f1f8";
 } /* '' */
+.icon-cart-plus:before {
+    content: "\f217";
+} /* '' */
 .icon-venus:before {
     content: "\f221";
 } /* '' */
