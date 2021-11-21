@@ -29,21 +29,29 @@
                     }
 
                     .card-body {
+                        .card-link {
+                            color: $MorO;
+
+                            &:hover {
+                                transition: all 0.6s;
+                                color: $Mor;
+                            }
+                        }
                         .prod__item--footer {
                             justify-content: center;
                             .icon-cart-plus {
                                 font-size: 24px;
                             }
-        
+
                             .buy__button {
                                 margin: 4px;
                                 border-radius: 8px;
                                 padding: 8px;
                                 background: $Color;
                                 color: $MorO;
-        
+
                                 &:hover {
-                                    transition: all .4s;
+                                    transition: all 0.4s;
                                     background: $ColorDos;
                                     color: $Bl;
                                 }
