@@ -11,4 +11,54 @@
             }
         }
     }
+
+    .prod__body {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 80px;
+        .ps__div {
+            .prod__section {
+                .card {
+                    margin: 20px;
+                    text-align: center;
+                    max-width: 40rem;
+
+                    .card-img-top {
+                        width: 100%;
+                    }
+
+                    .card-body {
+                        .prod__item--footer {
+                            justify-content: center;
+                            .icon-cart-plus {
+                                font-size: 24px;
+                            }
+        
+                            .buy__button {
+                                margin: 4px;
+                                border-radius: 8px;
+                                padding: 8px;
+                                background: $Color;
+                                color: $MorO;
+        
+                                &:hover {
+                                    transition: all .4s;
+                                    background: $ColorDos;
+                                    color: $Bl;
+                                }
+                            }
+                        }
+
+                        .pi__body--price {
+                            .body__price--after {
+                                color: grey;
+                                text-decoration: line-through;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

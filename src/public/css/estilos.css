@@ -1257,5 +1257,41 @@ p {
 .prod .prod__search .buscador .form-control {
   width: 40%;
 }
+.prod .prod__body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+}
+.prod .prod__body .ps__div .prod__section .card {
+  margin: 20px;
+  text-align: center;
+  max-width: 40rem;
+}
+.prod .prod__body .ps__div .prod__section .card .card-img-top {
+  width: 100%;
+}
+.prod .prod__body .ps__div .prod__section .card .card-body .prod__item--footer {
+  justify-content: center;
+}
+.prod .prod__body .ps__div .prod__section .card .card-body .prod__item--footer .icon-cart-plus {
+  font-size: 24px;
+}
+.prod .prod__body .ps__div .prod__section .card .card-body .prod__item--footer .buy__button {
+  margin: 4px;
+  border-radius: 8px;
+  padding: 8px;
+  background: linear-gradient(to bottom right, #f7add2, #e950f1);
+  color: #451147;
+}
+.prod .prod__body .ps__div .prod__section .card .card-body .prod__item--footer .buy__button:hover {
+  transition: all 0.4s;
+  background: linear-gradient(to bottom right, #e950f1, #f7add2);
+  color: #FFFFFF;
+}
+.prod .prod__body .ps__div .prod__section .card .card-body .pi__body--price .body__price--after {
+  color: grey;
+  text-decoration: line-through;
+}
 
 /*# sourceMappingURL=estilos.css.map */
