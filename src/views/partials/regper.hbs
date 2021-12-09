@@ -4,56 +4,77 @@
             <div class="card text-center">
                 <div class="card-header">
                     <h3 class="card-title">
-                        Registro de personal
+                        Registro de productos
                     </h3>
                 </div>
                 <div class="card-body">
-                    <form action="/control/registro-personal" method="POST" class="form" enctype="multipart/form-data">
+                    <form action="/control/registro-producto" method="POST" class="form" enctype="multipart/form-data">
                         <div class="form-section">
                             <div class="section-title">
                                 <h4 class="section__title--txt">
-                                    Registro de datos personales
+                                    Registro de datos del producto
                                 </h4>
                             </div>
                             <div class="form-group m-4">
-                                <label for="">Nombre Completo (*)</label>
-                                <input type="text" name="pernombre" id="" class="form-control"
-                                    placeholder="Joana Barrera" autofocus>
+                                <label for="">Nombre del producto (*)</label>
+                                <input type="text" name="nameproduct" id="" class="form-control"
+                                    placeholder="Ácido Hialurónico" autofocus>
                             </div>
                             <div class="form-group m-4">
-                                <label for="">Cargo (*)</label>
-                                <input type="text" name="percargo" id="" class="form-control"
-                                    placeholder="Enfermera">
+                                <label for="">Marca (*)</label>
+                                <input type="text" name="brandproduct" id="" class="form-control" placeholder="Afrodita"
+                                    autofocus>
+                            </div>
+                            <div class="form-group">
+                                <label>Categoría del producto</label>
+                                <select class="form-select m-2" name="produccat" aria-label="Default select example">
+                                    <option selected>Seleccione una categoría</option>
+                                    <option value="cuidado de la piel">Cuidado de la piel</option>
+                                    <option value="bases">Bases</option>
+                                    <option value="pintalabios">Pintalabios</option>
+                                    <option value="mascarillas">Mascarillas</option>
+                                    <option value="serum">Serum</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Calificación del producto</label>
+                                <select class="form-select m-2" name="productcal" aria-label="Default select example">
+                                    <option selected>Seleccione una categoría</option>
+                                    <option value="cinco">Cinco estrellas</option>
+                                    <option value="cuatro">Cuatro estrellas</option>
+                                    <option value="tres">Tres estrellas</option>
+                                    <option value="dos">Dos estrellas</option>
+                                    <option value="una">Una estrella</option>
+                                </select>
                             </div>
                             <div class="form-group m-4">
-                                <label for="">Foto asignada (*)</label>
-                                <input type="file" name="perfoto" id="" class="form-control">
+                                <label for="">Cantidad en almacén</label>
+                                <input type="int" name="cantidad" id="" class="form-control" placeholder="800">
                             </div>
                             <div class="form-group m-4">
-                                <label for="">Fecha de nacimiento (*)</label>
-                                <input type="date" name="perdate" id="" class="form-control"
-                                    placeholder="dd/mm/aaaa">
+                                <label for="">Video Yputube</label>
+                                <input type="text" name="videoprod" id="" class="form-control" placeholder="Afrodita"
+                                    autofocus>
                             </div>
                             <div class="form-group m-4">
-                                <label for="">Cédula de ciudadanía (*)</label>
-                                <input type="number" name="perid" id="" class="form-control"
-                                    placeholder="Sin guiones, puntos u otros caracteres">
-                            </div>
-                        </div>
-
-                        <div class="form-section">
-                            <div class="section-title">
-                                <h4 class="section__title--txt">
-                                    Registro de datos de acceso
-                                </h4>
+                                <label for="">Precio individual (*)</label>
+                                <input type="int" name="precioindi" id="" class="form-control" placeholder="15000">
                             </div>
                             <div class="form-group m-4">
-                                <label for="">Nombre de usuario (*)</label>
-                                <input type="text" name="peruser" id="" class="form-control">
+                                <label for="">Precio promo</label>
+                                <input type="int" name="preciopromo" id="" class="form-control" placeholder="10000">
                             </div>
                             <div class="form-group m-4">
-                                <label for="">Contraseña (*)</label>
-                                <input type="password" name="perpass" id="" class="form-control">
+                                <label for="">Precio mayor (*)</label>
+                                <input type="int" name="preciomayor" id="" class="form-control" placeholder="8500">
+                            </div>
+                            <div class="form-group m-4">
+                                <label for="">Foto del producto (*)</label>
+                                <input type="file" name="fotoprod" id="" class="form-control">
+                            </div>
+                            <div class="form-group m-4">
+                                <textarea name="descprod" id="" cols="30" rows="10" class="form-control"
+                                    placeholder="Descripción del producto"></textarea>
                             </div>
                         </div>
 

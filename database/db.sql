@@ -147,3 +147,22 @@
 -- pass local Enfermeras
 -- enfermera
 -- enfermera
+
+-- Cromatic
+
+-- CREATE TABLE productos (
+--     id INT(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 2,
+--     nameproduct VARCHAR(60) NOT NULL,
+--     brandproduct VARCHAR(60) NOT NULL,
+--     produccat VARCHAR(60) NOT NULL,
+--     productcal VARCHAR(60) NOT NULL,
+--     cantidad INT(11),
+--     videoprod VARCHAR(60) NOT NULL,
+--     precioindi INT(11),
+--     preciopromo INT(11),
+--     preciomayor INT(11),
+--     fotoprod VARCHAR(60) NOT NULL, imagen
+--     descprod TEXT(500),
+--     created_at timestamp NOT NULL DEFAULT current_timestamp,
+--     CONSTRAINT fk_prod FOREIGN KEY (teuser_id) REFERENCES cromausers(id)
+-- );

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
     "connect-flash": "^0.1.1",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
@@ -12,6 +13,7 @@
     "mysql": "^2.18.1",
     "passport": "^0.5.0",
     "passport-local": "^1.0.0",
+    "sequelize": "^6.12.0-alpha.1",
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
